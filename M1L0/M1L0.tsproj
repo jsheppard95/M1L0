@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4022.30">
-	<Project ProjectGUID="{150B8D0F-5FD9-48A9-A3E7-576C17706DCE}" Target64Bit="true" ShowHideConfigurations="#x106">
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4020.56">
+	<Project ProjectGUID="{150B8D0F-5FD9-48A9-A3E7-576C17706DCE}" TargetNetId="5.54.18.124.1.1" ShowHideConfigurations="#x106">
 		<System>
 			<Tasks>
 				<Task Id="2" Priority="20" CycleTime="100000" AmsPort="350">
@@ -14,5 +14,11 @@
 		<Plc>
 			<Project File="M1L0_PLC.xti"/>
 		</Plc>
+		<Io>
+			<Device File="Device 3 (EtherCAT).xti" Id="3"/>
+		</Io>
 	</Project>
+	<Mappings>
+		<MappingInfo Identifier="{00000000-0011-0101-1000-010130000403}" Id="#x02030010"/>
+	</Mappings>
 </TcSmProject>

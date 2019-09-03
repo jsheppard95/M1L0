@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.18">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4020.14">
   <POU Name="MAIN" Id="{21c84ce2-2878-45d5-94df-60fcb8c366e5}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
-
 VAR
 //	{attribute 'TcLinkTo' := '.bLimFwd:=TIIB[y_up]^STM Status^Status^Digital input 1; .bLimBwd:=TIIB[y_up]^STM Status^Status^Digital input 2; .bSTO:=TIIB[di]^Channel 1^Input'}	
 	{attribute 'TcLinkTo':='.bLimFwd:=TIIB[y_up]^STM Status^Status^Digital input 1'}		

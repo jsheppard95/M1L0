@@ -1832,6 +1832,10 @@ External Setpoint Generation:
 	</Project>
 	<Mappings>
 		<OwnerA Name="M1L0_PLC Instance">
+			<OwnerB Name="TIID^Device 3 (EtherCAT)^Term 1 (EK1100)^Term 10 (EL5042) - Y">
+				<Link VarA="PlcTask Inputs^MAIN.y_dwn_enc^Count" VarB="FB Inputs Channel 2^Position"/>
+				<Link VarA="PlcTask Inputs^MAIN.y_up_enc^Count" VarB="FB Inputs Channel 1^Position"/>
+			</OwnerB>
 			<OwnerB Name="TIID^Device 3 (EtherCAT)^Term 1 (EK1100)^Term 12 (EL1004) - STO">
 				<Link VarA="PlcTask Inputs^MAIN.stoEnable" VarB="Channel 1^Input"/>
 			</OwnerB>
@@ -1854,6 +1858,10 @@ External Setpoint Generation:
 			<OwnerB Name="TIID^Device 3 (EtherCAT)^Term 1 (EK1100)^Term 6 (EL7041-1000) - PitchCoarse">
 				<Link VarA="PlcTask Inputs^MAIN.M5.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2"/>
 				<Link VarA="PlcTask Inputs^MAIN.M5.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 3 (EtherCAT)^Term 1 (EK1100)^Term 9 (EL5042) - X">
+				<Link VarA="PlcTask Inputs^MAIN.x_dwn_enc^Count" VarB="FB Inputs Channel 2^Position"/>
+				<Link VarA="PlcTask Inputs^MAIN.x_up_enc^Count" VarB="FB Inputs Channel 1^Position"/>
 			</OwnerB>
 			<OwnerB Name="TINC^NC-Task 1 SAF^Axes^Axis_PitchCoarse">
 				<Link VarA="PlcTask Inputs^MAIN.M5.Axis.NcToPlc" VarB="Outputs^ToPlc"/>

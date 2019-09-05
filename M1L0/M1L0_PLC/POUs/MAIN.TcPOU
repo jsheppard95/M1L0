@@ -39,8 +39,8 @@ VAR
 	// Gantry variables
 	nCurrGantryX : LINT;
 	nCurrGantryY : LINT;
-	nGantryTolX : LINT := 50000;
-	nGantryTolY : LINT := 50000;
+	nGantryTolX : LINT := 25000;
+	nGantryTolY : LINT := 25000;
 END_VAR]]></Declaration>
     <Implementation>
       <ST><![CDATA[// Buttons to enable motors: write 0 to enable, 2 to disable

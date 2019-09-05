@@ -5,7 +5,7 @@
   <IsWizardTemplate>false</IsWizardTemplate>
   <LayoutString>&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;Layout&gt;
-  &lt;Window Guid="b1560a06-9992-4c8c-9f35-e7602e22de09" LastFocused="132120262108707914" DockedSize="200" PopupSize="0" FloatingLocation="-1, -1" FloatingSize="550, 400" LastOpenDockSituation="Document" LastFixedDockSituation="Document" LastFixedDockLocation="Right" LastFloatingWindowGuid="00000000-0000-0000-0000-000000000000" LastDockContainerCount="0" LastDockContainerIndex="0" DockedWorkingSize="250, 400" DockedWindowGroupGuid="00000000-0000-0000-0000-000000000000" DockedIndexInWindowGroup="0" DockedSplitPath="0" DocumentWorkingSize="250, 400" DocumentWindowGroupGuid="eb8d551f-2cc7-4025-b2af-4a164df487ad" DocumentIndexInWindowGroup="0" DocumentSplitPath="0" FloatingWorkingSize="250, 400" FloatingWindowGroupGuid="00000000-0000-0000-0000-000000000000" FloatingIndexInWindowGroup="0" FloatingSplitPath="0" /&gt;
+  &lt;Window Guid="b1560a06-9992-4c8c-9f35-e7602e22de09" LastFocused="132121039889949781" DockedSize="200" PopupSize="0" FloatingLocation="-1, -1" FloatingSize="550, 400" LastOpenDockSituation="Document" LastFixedDockSituation="Document" LastFixedDockLocation="Right" LastFloatingWindowGuid="00000000-0000-0000-0000-000000000000" LastDockContainerCount="0" LastDockContainerIndex="0" DockedWorkingSize="250, 400" DockedWindowGroupGuid="00000000-0000-0000-0000-000000000000" DockedIndexInWindowGroup="0" DockedSplitPath="0" DocumentWorkingSize="250, 400" DocumentWindowGroupGuid="eb8d551f-2cc7-4025-b2af-4a164df487ad" DocumentIndexInWindowGroup="0" DocumentSplitPath="0" FloatingWorkingSize="250, 400" FloatingWindowGroupGuid="00000000-0000-0000-0000-000000000000" FloatingIndexInWindowGroup="0" FloatingSplitPath="0" /&gt;
   &lt;DocumentContainer Dock="5"&gt;
     &lt;SplitLayoutSystem WorkingSize="250, 400" SplitMode="0"&gt;
       &lt;ControlLayoutSystem WorkingSize="250, 400" Guid="eb8d551f-2cc7-4025-b2af-4a164df487ad" Collapsed="0" SelectedControl="b1560a06-9992-4c8c-9f35-e7602e22de09"&gt;
@@ -17,15 +17,15 @@
   &lt;/DocumentContainer&gt;
 &lt;/Layout&gt;</LayoutString>
   <Operating>
-    <RecordTime>6000000000</RecordTime>
-    <DataFileName>C:\TwinCAT\Scope 2\View\Save\</DataFileName>
+    <RecordTime>36000000000</RecordTime>
+    <DataFileName>C:\Users\pcds\Documents\Visual Studio 2013\Projects\M1L0</DataFileName>
     <RunMode>ClientStart</RunMode>
     <StopMode>AutoStop</StopMode>
     <ServerUseFileStore>true</ServerUseFileStore>
     <Comment></Comment>
     <ScopeStopAutoSave>
       <UseAutoSave>false</UseAutoSave>
-      <AutoSavePath />
+      <AutoSavePath></AutoSavePath>
       <FileNameMask>{SCOPE}_AutoSave_{HH_mm_ss}</FileNameMask>
       <AutoDelete>
         <AutoDeleteMode>Disabled</AutoDeleteMode>
@@ -122,10 +122,10 @@
                 <Unit />
                 <TargetPort>501</TargetPort>
                 <VariableSize>8</VariableSize>
-                <SymbolName>AXES.Axis_Yup.ACTPOS</SymbolName>
+                <SymbolName>AXES.Axis_PitchCoarse.ACTPOS</SymbolName>
                 <SymbolComment></SymbolComment>
                 <IsSymbolBased>true</IsSymbolBased>
-                <FileHandle>0</FileHandle>
+                <FileHandle>123</FileHandle>
                 <UseLocalServer>true</UseLocalServer>
                 <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
                 <SampleTime>20000</SampleTime>
@@ -170,39 +170,59 @@
                   <Records />
                 </MqttRecords>
                 <MqttConnectionSettings>
-                  <Broker></Broker>
+                  <Broker>
+                  </Broker>
                   <BrokerPort>1883</BrokerPort>
-                  <UserID></UserID>
+                  <UserID>
+                  </UserID>
                   <PasswordCrypted>Dp9ZyxOA79iYBArgnxFOJButW2q1YtUB</PasswordCrypted>
                   <WithCertificates>false</WithCertificates>
-                  <CA_Certificate></CA_Certificate>
-                  <CA_Pwd></CA_Pwd>
-                  <Pfx_Certificate></Pfx_Certificate>
-                  <Pfx_Pwd></Pfx_Pwd>
-                  <Cert_Certificate></Cert_Certificate>
-                  <Cert_Pwd></Cert_Pwd>
-                  <Key_Certificate></Key_Certificate>
-                  <Key_Pwd></Key_Pwd>
+                  <CA_Certificate>
+                  </CA_Certificate>
+                  <CA_Pwd>
+                  </CA_Pwd>
+                  <Pfx_Certificate>
+                  </Pfx_Certificate>
+                  <Pfx_Pwd>
+                  </Pfx_Pwd>
+                  <Cert_Certificate>
+                  </Cert_Certificate>
+                  <Cert_Pwd>
+                  </Cert_Pwd>
+                  <Key_Certificate>
+                  </Key_Certificate>
+                  <Key_Pwd>
+                  </Key_Pwd>
                 </MqttConnectionSettings>
                 <MqttSymbolName>unknown</MqttSymbolName>
                 <MqttValueByteOffset>4294967295</MqttValueByteOffset>
                 <MqttCmdTopic>unknown</MqttCmdTopic>
                 <IsHistorical>false</IsHistorical>
                 <OpcUaAddress>
-                  <ServerUrl></ServerUrl>
-                  <EndpointName></EndpointName>
-                  <SecurityPolicyUri></SecurityPolicyUri>
+                  <ServerUrl>
+                  </ServerUrl>
+                  <EndpointName>
+                  </EndpointName>
+                  <SecurityPolicyUri>
+                  </SecurityPolicyUri>
                   <IdentityType>Anonymous</IdentityType>
-                  <UserName></UserName>
+                  <UserName>
+                  </UserName>
                 </OpcUaAddress>
                 <OpcUaSymbol>
-                  <Name></Name>
-                  <Path></Path>
+                  <Name>
+                  </Name>
+                  <Path>
+                  </Path>
                   <BitSize>0</BitSize>
-                  <BaseType></BaseType>
-                  <NodeClass></NodeClass>
-                  <NodeId></NodeId>
-                  <NamespaceName></NamespaceName>
+                  <BaseType>
+                  </BaseType>
+                  <NodeClass>
+                  </NodeClass>
+                  <NodeId>
+                  </NodeId>
+                  <NamespaceName>
+                  </NamespaceName>
                   <IsArray>false</IsArray>
                   <IsMatrix>false</IsMatrix>
                   <Dimensions>0</Dimensions>
@@ -243,7 +263,8 @@
                     <Prefix>none</Prefix>
                     <ScaleFactor>1</ScaleFactor>
                     <Offset>0</Offset>
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <ReturnText> (None) </ReturnText>
                     <BaseUnitString />
                     <NameExtension />
@@ -266,7 +287,8 @@
                     <Name>None</Name>
                     <BaseName>UnitOfOne</BaseName>
                     <NameExtension />
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <BaseUnitString />
                     <UserPrefix>none</UserPrefix>
                   </UserUnit>
@@ -279,7 +301,8 @@
                     <Prefix>none</Prefix>
                     <ScaleFactor>1</ScaleFactor>
                     <Offset>0</Offset>
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <ReturnText> (None) </ReturnText>
                     <BaseUnitString />
                     <NameExtension />
@@ -302,7 +325,8 @@
                     <Name>None</Name>
                     <BaseName>UnitOfOne</BaseName>
                     <NameExtension />
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <BaseUnitString />
                     <UserPrefix>none</UserPrefix>
                   </UserUnit>
@@ -323,10 +347,10 @@
                 <Unit />
                 <TargetPort>501</TargetPort>
                 <VariableSize>8</VariableSize>
-                <SymbolName>AXES.Axis_Yup.SETPOS</SymbolName>
+                <SymbolName>AXES.Axis_PitchCoarse.SETPOS</SymbolName>
                 <SymbolComment></SymbolComment>
                 <IsSymbolBased>true</IsSymbolBased>
-                <FileHandle>0</FileHandle>
+                <FileHandle>124</FileHandle>
                 <UseLocalServer>true</UseLocalServer>
                 <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
                 <SampleTime>20000</SampleTime>
@@ -371,39 +395,59 @@
                   <Records />
                 </MqttRecords>
                 <MqttConnectionSettings>
-                  <Broker></Broker>
+                  <Broker>
+                  </Broker>
                   <BrokerPort>1883</BrokerPort>
-                  <UserID></UserID>
+                  <UserID>
+                  </UserID>
                   <PasswordCrypted>wp86pjotNZyYBArgnxFOJDzUW2q1YtUB</PasswordCrypted>
                   <WithCertificates>false</WithCertificates>
-                  <CA_Certificate></CA_Certificate>
-                  <CA_Pwd></CA_Pwd>
-                  <Pfx_Certificate></Pfx_Certificate>
-                  <Pfx_Pwd></Pfx_Pwd>
-                  <Cert_Certificate></Cert_Certificate>
-                  <Cert_Pwd></Cert_Pwd>
-                  <Key_Certificate></Key_Certificate>
-                  <Key_Pwd></Key_Pwd>
+                  <CA_Certificate>
+                  </CA_Certificate>
+                  <CA_Pwd>
+                  </CA_Pwd>
+                  <Pfx_Certificate>
+                  </Pfx_Certificate>
+                  <Pfx_Pwd>
+                  </Pfx_Pwd>
+                  <Cert_Certificate>
+                  </Cert_Certificate>
+                  <Cert_Pwd>
+                  </Cert_Pwd>
+                  <Key_Certificate>
+                  </Key_Certificate>
+                  <Key_Pwd>
+                  </Key_Pwd>
                 </MqttConnectionSettings>
                 <MqttSymbolName>unknown</MqttSymbolName>
                 <MqttValueByteOffset>4294967295</MqttValueByteOffset>
                 <MqttCmdTopic>unknown</MqttCmdTopic>
                 <IsHistorical>false</IsHistorical>
                 <OpcUaAddress>
-                  <ServerUrl></ServerUrl>
-                  <EndpointName></EndpointName>
-                  <SecurityPolicyUri></SecurityPolicyUri>
+                  <ServerUrl>
+                  </ServerUrl>
+                  <EndpointName>
+                  </EndpointName>
+                  <SecurityPolicyUri>
+                  </SecurityPolicyUri>
                   <IdentityType>Anonymous</IdentityType>
-                  <UserName></UserName>
+                  <UserName>
+                  </UserName>
                 </OpcUaAddress>
                 <OpcUaSymbol>
-                  <Name></Name>
-                  <Path></Path>
+                  <Name>
+                  </Name>
+                  <Path>
+                  </Path>
                   <BitSize>0</BitSize>
-                  <BaseType></BaseType>
-                  <NodeClass></NodeClass>
-                  <NodeId></NodeId>
-                  <NamespaceName></NamespaceName>
+                  <BaseType>
+                  </BaseType>
+                  <NodeClass>
+                  </NodeClass>
+                  <NodeId>
+                  </NodeId>
+                  <NamespaceName>
+                  </NamespaceName>
                   <IsArray>false</IsArray>
                   <IsMatrix>false</IsMatrix>
                   <Dimensions>0</Dimensions>
@@ -444,7 +488,8 @@
                     <Prefix>none</Prefix>
                     <ScaleFactor>1</ScaleFactor>
                     <Offset>0</Offset>
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <ReturnText> (None) </ReturnText>
                     <BaseUnitString />
                     <NameExtension />
@@ -467,7 +512,8 @@
                     <Name>None</Name>
                     <BaseName>UnitOfOne</BaseName>
                     <NameExtension />
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <BaseUnitString />
                     <UserPrefix>none</UserPrefix>
                   </UserUnit>
@@ -480,7 +526,8 @@
                     <Prefix>none</Prefix>
                     <ScaleFactor>1</ScaleFactor>
                     <Offset>0</Offset>
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <ReturnText> (None) </ReturnText>
                     <BaseUnitString />
                     <NameExtension />
@@ -503,7 +550,8 @@
                     <Name>None</Name>
                     <BaseName>UnitOfOne</BaseName>
                     <NameExtension />
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <BaseUnitString />
                     <UserPrefix>none</UserPrefix>
                   </UserUnit>
@@ -558,10 +606,10 @@
                 <Unit />
                 <TargetPort>501</TargetPort>
                 <VariableSize>8</VariableSize>
-                <SymbolName>AXES.Axis_Yup.ACTVELO</SymbolName>
+                <SymbolName>AXES.Axis_PitchCoarse.ACTVELO</SymbolName>
                 <SymbolComment></SymbolComment>
                 <IsSymbolBased>true</IsSymbolBased>
-                <FileHandle>0</FileHandle>
+                <FileHandle>125</FileHandle>
                 <UseLocalServer>true</UseLocalServer>
                 <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
                 <SampleTime>20000</SampleTime>
@@ -606,39 +654,59 @@
                   <Records />
                 </MqttRecords>
                 <MqttConnectionSettings>
-                  <Broker></Broker>
+                  <Broker>
+                  </Broker>
                   <BrokerPort>1883</BrokerPort>
-                  <UserID></UserID>
+                  <UserID>
+                  </UserID>
                   <PasswordCrypted>wp86pjotNZyYBArgnxFOJDzUW2q1YtUB</PasswordCrypted>
                   <WithCertificates>false</WithCertificates>
-                  <CA_Certificate></CA_Certificate>
-                  <CA_Pwd></CA_Pwd>
-                  <Pfx_Certificate></Pfx_Certificate>
-                  <Pfx_Pwd></Pfx_Pwd>
-                  <Cert_Certificate></Cert_Certificate>
-                  <Cert_Pwd></Cert_Pwd>
-                  <Key_Certificate></Key_Certificate>
-                  <Key_Pwd></Key_Pwd>
+                  <CA_Certificate>
+                  </CA_Certificate>
+                  <CA_Pwd>
+                  </CA_Pwd>
+                  <Pfx_Certificate>
+                  </Pfx_Certificate>
+                  <Pfx_Pwd>
+                  </Pfx_Pwd>
+                  <Cert_Certificate>
+                  </Cert_Certificate>
+                  <Cert_Pwd>
+                  </Cert_Pwd>
+                  <Key_Certificate>
+                  </Key_Certificate>
+                  <Key_Pwd>
+                  </Key_Pwd>
                 </MqttConnectionSettings>
                 <MqttSymbolName>unknown</MqttSymbolName>
                 <MqttValueByteOffset>4294967295</MqttValueByteOffset>
                 <MqttCmdTopic>unknown</MqttCmdTopic>
                 <IsHistorical>false</IsHistorical>
                 <OpcUaAddress>
-                  <ServerUrl></ServerUrl>
-                  <EndpointName></EndpointName>
-                  <SecurityPolicyUri></SecurityPolicyUri>
+                  <ServerUrl>
+                  </ServerUrl>
+                  <EndpointName>
+                  </EndpointName>
+                  <SecurityPolicyUri>
+                  </SecurityPolicyUri>
                   <IdentityType>Anonymous</IdentityType>
-                  <UserName></UserName>
+                  <UserName>
+                  </UserName>
                 </OpcUaAddress>
                 <OpcUaSymbol>
-                  <Name></Name>
-                  <Path></Path>
+                  <Name>
+                  </Name>
+                  <Path>
+                  </Path>
                   <BitSize>0</BitSize>
-                  <BaseType></BaseType>
-                  <NodeClass></NodeClass>
-                  <NodeId></NodeId>
-                  <NamespaceName></NamespaceName>
+                  <BaseType>
+                  </BaseType>
+                  <NodeClass>
+                  </NodeClass>
+                  <NodeId>
+                  </NodeId>
+                  <NamespaceName>
+                  </NamespaceName>
                   <IsArray>false</IsArray>
                   <IsMatrix>false</IsMatrix>
                   <Dimensions>0</Dimensions>
@@ -679,7 +747,8 @@
                     <Prefix>none</Prefix>
                     <ScaleFactor>1</ScaleFactor>
                     <Offset>0</Offset>
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <ReturnText> (None) </ReturnText>
                     <BaseUnitString />
                     <NameExtension />
@@ -702,7 +771,8 @@
                     <Name>None</Name>
                     <BaseName>UnitOfOne</BaseName>
                     <NameExtension />
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <BaseUnitString />
                     <UserPrefix>none</UserPrefix>
                   </UserUnit>
@@ -715,7 +785,8 @@
                     <Prefix>none</Prefix>
                     <ScaleFactor>1</ScaleFactor>
                     <Offset>0</Offset>
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <ReturnText> (None) </ReturnText>
                     <BaseUnitString />
                     <NameExtension />
@@ -738,7 +809,8 @@
                     <Name>None</Name>
                     <BaseName>UnitOfOne</BaseName>
                     <NameExtension />
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <BaseUnitString />
                     <UserPrefix>none</UserPrefix>
                   </UserUnit>
@@ -759,10 +831,10 @@
                 <Unit />
                 <TargetPort>501</TargetPort>
                 <VariableSize>8</VariableSize>
-                <SymbolName>AXES.Axis_Yup.SETVELO</SymbolName>
+                <SymbolName>AXES.Axis_PitchCoarse.SETVELO</SymbolName>
                 <SymbolComment></SymbolComment>
                 <IsSymbolBased>true</IsSymbolBased>
-                <FileHandle>0</FileHandle>
+                <FileHandle>126</FileHandle>
                 <UseLocalServer>true</UseLocalServer>
                 <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
                 <SampleTime>20000</SampleTime>
@@ -807,39 +879,59 @@
                   <Records />
                 </MqttRecords>
                 <MqttConnectionSettings>
-                  <Broker></Broker>
+                  <Broker>
+                  </Broker>
                   <BrokerPort>1883</BrokerPort>
-                  <UserID></UserID>
+                  <UserID>
+                  </UserID>
                   <PasswordCrypted>2RSPNyP0NBeYBArgnxFOJED7W2q1YtUB</PasswordCrypted>
                   <WithCertificates>false</WithCertificates>
-                  <CA_Certificate></CA_Certificate>
-                  <CA_Pwd></CA_Pwd>
-                  <Pfx_Certificate></Pfx_Certificate>
-                  <Pfx_Pwd></Pfx_Pwd>
-                  <Cert_Certificate></Cert_Certificate>
-                  <Cert_Pwd></Cert_Pwd>
-                  <Key_Certificate></Key_Certificate>
-                  <Key_Pwd></Key_Pwd>
+                  <CA_Certificate>
+                  </CA_Certificate>
+                  <CA_Pwd>
+                  </CA_Pwd>
+                  <Pfx_Certificate>
+                  </Pfx_Certificate>
+                  <Pfx_Pwd>
+                  </Pfx_Pwd>
+                  <Cert_Certificate>
+                  </Cert_Certificate>
+                  <Cert_Pwd>
+                  </Cert_Pwd>
+                  <Key_Certificate>
+                  </Key_Certificate>
+                  <Key_Pwd>
+                  </Key_Pwd>
                 </MqttConnectionSettings>
                 <MqttSymbolName>unknown</MqttSymbolName>
                 <MqttValueByteOffset>4294967295</MqttValueByteOffset>
                 <MqttCmdTopic>unknown</MqttCmdTopic>
                 <IsHistorical>false</IsHistorical>
                 <OpcUaAddress>
-                  <ServerUrl></ServerUrl>
-                  <EndpointName></EndpointName>
-                  <SecurityPolicyUri></SecurityPolicyUri>
+                  <ServerUrl>
+                  </ServerUrl>
+                  <EndpointName>
+                  </EndpointName>
+                  <SecurityPolicyUri>
+                  </SecurityPolicyUri>
                   <IdentityType>Anonymous</IdentityType>
-                  <UserName></UserName>
+                  <UserName>
+                  </UserName>
                 </OpcUaAddress>
                 <OpcUaSymbol>
-                  <Name></Name>
-                  <Path></Path>
+                  <Name>
+                  </Name>
+                  <Path>
+                  </Path>
                   <BitSize>0</BitSize>
-                  <BaseType></BaseType>
-                  <NodeClass></NodeClass>
-                  <NodeId></NodeId>
-                  <NamespaceName></NamespaceName>
+                  <BaseType>
+                  </BaseType>
+                  <NodeClass>
+                  </NodeClass>
+                  <NodeId>
+                  </NodeId>
+                  <NamespaceName>
+                  </NamespaceName>
                   <IsArray>false</IsArray>
                   <IsMatrix>false</IsMatrix>
                   <Dimensions>0</Dimensions>
@@ -880,7 +972,8 @@
                     <Prefix>none</Prefix>
                     <ScaleFactor>1</ScaleFactor>
                     <Offset>0</Offset>
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <ReturnText> (None) </ReturnText>
                     <BaseUnitString />
                     <NameExtension />
@@ -903,7 +996,8 @@
                     <Name>None</Name>
                     <BaseName>UnitOfOne</BaseName>
                     <NameExtension />
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <BaseUnitString />
                     <UserPrefix>none</UserPrefix>
                   </UserUnit>
@@ -916,7 +1010,8 @@
                     <Prefix>none</Prefix>
                     <ScaleFactor>1</ScaleFactor>
                     <Offset>0</Offset>
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <ReturnText> (None) </ReturnText>
                     <BaseUnitString />
                     <NameExtension />
@@ -939,7 +1034,8 @@
                     <Name>None</Name>
                     <BaseName>UnitOfOne</BaseName>
                     <NameExtension />
-                    <Symbol></Symbol>
+                    <Symbol>
+                    </Symbol>
                     <BaseUnitString />
                     <UserPrefix>none</UserPrefix>
                   </UserUnit>
@@ -994,10 +1090,787 @@
                 <Unit />
                 <TargetPort>501</TargetPort>
                 <VariableSize>8</VariableSize>
-                <SymbolName>AXES.Axis_Yup.POSDIFF</SymbolName>
+                <SymbolName>AXES.Axis_PitchCoarse.POSDIFF</SymbolName>
                 <SymbolComment></SymbolComment>
                 <IsSymbolBased>true</IsSymbolBased>
-                <FileHandle>0</FileHandle>
+                <FileHandle>127</FileHandle>
+                <UseLocalServer>true</UseLocalServer>
+                <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
+                <SampleTime>20000</SampleTime>
+                <Disabled>false</Disabled>
+                <Oversample>0</Oversample>
+                <UseTaskSampletime>true</UseTaskSampletime>
+                <ForceOversampling>false</ForceOversampling>
+                <IsArray>false</IsArray>
+                <ArrayLength>0</ArrayLength>
+                <ContextMask>0</ContextMask>
+                <TimeOffset>0</TimeOffset>
+                <DataAccess>
+                  <Source>TwinCAT</Source>
+                  <Protocoll>ADS</Protocoll>
+                  <Format>TcBinary</Format>
+                  <TimeContext>Present</TimeContext>
+                  <TimeRange>
+                    <StartTimeStamp>0</StartTimeStamp>
+                    <EndTimeStamp>0</EndTimeStamp>
+                  </TimeRange>
+                </DataAccess>
+                <DbSelect>unknown</DbSelect>
+                <DbColumn>unknown</DbColumn>
+                <DbTimeCol>unknown</DbTimeCol>
+                <DbId>0</DbId>
+                <DbTable>unknown</DbTable>
+                <DbRecords>
+                  <Records />
+                </DbRecords>
+                <IotFilePath>unknown</IotFilePath>
+                <IotFileTimeRangeId>18446744073709551615</IotFileTimeRangeId>
+                <IotFileRecords>
+                  <Records />
+                </IotFileRecords>
+                <IotFileSymbolName>unknown</IotFileSymbolName>
+                <IotFileValueByteOffset>4294967295</IotFileValueByteOffset>
+                <MqttHost>unknown</MqttHost>
+                <MqttLayout>00000000-0000-0000-0000-000000000000</MqttLayout>
+                <MqttTopic>unknown</MqttTopic>
+                <MqttTimeRangeId>18446744073709551615</MqttTimeRangeId>
+                <MqttRecords>
+                  <Records />
+                </MqttRecords>
+                <MqttConnectionSettings>
+                  <Broker>
+                  </Broker>
+                  <BrokerPort>1883</BrokerPort>
+                  <UserID>
+                  </UserID>
+                  <PasswordCrypted>2RSPNyP0NBeYBArgnxFOJED7W2q1YtUB</PasswordCrypted>
+                  <WithCertificates>false</WithCertificates>
+                  <CA_Certificate>
+                  </CA_Certificate>
+                  <CA_Pwd>
+                  </CA_Pwd>
+                  <Pfx_Certificate>
+                  </Pfx_Certificate>
+                  <Pfx_Pwd>
+                  </Pfx_Pwd>
+                  <Cert_Certificate>
+                  </Cert_Certificate>
+                  <Cert_Pwd>
+                  </Cert_Pwd>
+                  <Key_Certificate>
+                  </Key_Certificate>
+                  <Key_Pwd>
+                  </Key_Pwd>
+                </MqttConnectionSettings>
+                <MqttSymbolName>unknown</MqttSymbolName>
+                <MqttValueByteOffset>4294967295</MqttValueByteOffset>
+                <MqttCmdTopic>unknown</MqttCmdTopic>
+                <IsHistorical>false</IsHistorical>
+                <OpcUaAddress>
+                  <ServerUrl>
+                  </ServerUrl>
+                  <EndpointName>
+                  </EndpointName>
+                  <SecurityPolicyUri>
+                  </SecurityPolicyUri>
+                  <IdentityType>Anonymous</IdentityType>
+                  <UserName>
+                  </UserName>
+                </OpcUaAddress>
+                <OpcUaSymbol>
+                  <Name>
+                  </Name>
+                  <Path>
+                  </Path>
+                  <BitSize>0</BitSize>
+                  <BaseType>
+                  </BaseType>
+                  <NodeClass>
+                  </NodeClass>
+                  <NodeId>
+                  </NodeId>
+                  <NamespaceName>
+                  </NamespaceName>
+                  <IsArray>false</IsArray>
+                  <IsMatrix>false</IsMatrix>
+                  <Dimensions>0</Dimensions>
+                  <ArrayLength>-1</ArrayLength>
+                </OpcUaSymbol>
+              </Acquisition>
+              <Style>
+                <ColorValue>-65281</ColorValue>
+                <SolidLine>false</SolidLine>
+                <Marks>false</Marks>
+                <LineWidth>2</LineWidth>
+                <Antialias>true</Antialias>
+                <Offset>0</Offset>
+                <BitMask>18446744073709551615</BitMask>
+                <ShowCursorValue>true</ShowCursorValue>
+                <Visible>true</Visible>
+                <MarkColorValue>-65281</MarkColorValue>
+                <MarkSize>5</MarkSize>
+                <TimeShift>0</TimeShift>
+                <ScaleFactor>1</ScaleFactor>
+                <Comment></Comment>
+                <AutoMarks>true</AutoMarks>
+                <XOffset>0</XOffset>
+                <XScaleFactor>1</XScaleFactor>
+                <XBitMask>18446744073709551615</XBitMask>
+                <FillMode>0</FillMode>
+                <FillColorValue>838926335</FillColorValue>
+                <EndCap>false</EndCap>
+                <StartCap>false</StartCap>
+                <CapSize>3</CapSize>
+                <CapColorValue>-65536</CapColorValue>
+                <SeriesType>Line</SeriesType>
+                <ShowMin>false</ShowMin>
+                <ShowMax>false</ShowMax>
+                <ResultingUnit>
+                  <Unit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Symbol>
+                    </Symbol>
+                    <ReturnText> (None) </ReturnText>
+                    <BaseUnitString />
+                    <NameExtension />
+                  </Unit>
+                  <Transformation>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <TargetUnitValue>0</TargetUnitValue>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Name>None</Name>
+                    <SourceUnitString />
+                    <TargetUnitString />
+                    <SourceUnitPrefix>none</SourceUnitPrefix>
+                    <Symbol>1</Symbol>
+                  </Transformation>
+                  <UserUnit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Name>None</Name>
+                    <BaseName>UnitOfOne</BaseName>
+                    <NameExtension />
+                    <Symbol>
+                    </Symbol>
+                    <BaseUnitString />
+                    <UserPrefix>none</UserPrefix>
+                  </UserUnit>
+                  <UnitScaleResult>1</UnitScaleResult>
+                  <UnitOffsetResult>0</UnitOffsetResult>
+                </ResultingUnit>
+                <XResultingUnit>
+                  <Unit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Symbol>
+                    </Symbol>
+                    <ReturnText> (None) </ReturnText>
+                    <BaseUnitString />
+                    <NameExtension />
+                  </Unit>
+                  <Transformation>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <TargetUnitValue>0</TargetUnitValue>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Name>None</Name>
+                    <SourceUnitString />
+                    <TargetUnitString />
+                    <SourceUnitPrefix>none</SourceUnitPrefix>
+                    <Symbol>1</Symbol>
+                  </Transformation>
+                  <UserUnit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Name>None</Name>
+                    <BaseName>UnitOfOne</BaseName>
+                    <NameExtension />
+                    <Symbol>
+                    </Symbol>
+                    <BaseUnitString />
+                    <UserPrefix>none</UserPrefix>
+                  </UserUnit>
+                  <UnitScaleResult>1</UnitScaleResult>
+                  <UnitOffsetResult>0</UnitOffsetResult>
+                </XResultingUnit>
+              </Style>
+              <SortPriority>-1</SortPriority>
+            </ScopeChannelSerializable>
+          </Channels>
+          <Markers />
+          <MarkerControl>
+            <WidthValues />
+            <CreatedRows />
+          </MarkerControl>
+          <SortPriority>4</SortPriority>
+        </ScopeYAxisSerializable>
+        <ScopeYAxisSerializable>
+          <Caption>X Gantry Difference</Caption>
+          <Name>X Gantry Difference</Name>
+          <Style>
+            <Visible>true</Visible>
+            <Enabled>true</Enabled>
+            <ColorValue>-13676721</ColorValue>
+            <UseGrid>true</UseGrid>
+            <Ticks>10</Ticks>
+            <LineWidth>1</LineWidth>
+            <AutoScale>true</AutoScale>
+            <AxisMin>-1</AxisMin>
+            <AxisMax>1</AxisMax>
+            <ScaleFactor>0</ScaleFactor>
+            <ShowCursorValue>true</ShowCursorValue>
+            <GridColorValue>-13676721</GridColorValue>
+            <GridLineWidth>1</GridLineWidth>
+            <UseSubGrid>false</UseSubGrid>
+            <SubDivisions>5</SubDivisions>
+            <Logarithmic>false</Logarithmic>
+            <Comment></Comment>
+            <ShowName>true</ShowName>
+            <Precision>6</Precision>
+            <ScaleMode>AutoGrowOnly</ScaleMode>
+          </Style>
+          <Channels>
+            <ScopeChannelSerializable>
+              <GUID>98ab0c73-e665-4db1-a2bd-bed1f51a28fd</GUID>
+              <Name>nCurrGantryX</Name>
+              <IdentHandle>6</IdentHandle>
+              <Acquisition>
+                <DataType>INT64</DataType>
+                <IndexGroup>16448</IndexGroup>
+                <IndexOffset>664464</IndexOffset>
+                <Unit />
+                <TargetPort>851</TargetPort>
+                <VariableSize>8</VariableSize>
+                <SymbolName>MAIN.nCurrGantryX</SymbolName>
+                <SymbolComment> Gantry variables</SymbolComment>
+                <IsSymbolBased>true</IsSymbolBased>
+                <FileHandle>128</FileHandle>
+                <UseLocalServer>true</UseLocalServer>
+                <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
+                <SampleTime>100000</SampleTime>
+                <Disabled>false</Disabled>
+                <Oversample>0</Oversample>
+                <UseTaskSampletime>true</UseTaskSampletime>
+                <ForceOversampling>false</ForceOversampling>
+                <IsArray>false</IsArray>
+                <ArrayLength>0</ArrayLength>
+                <ContextMask>0</ContextMask>
+                <TimeOffset>0</TimeOffset>
+                <DataAccess>
+                  <Source>TwinCAT</Source>
+                  <Protocoll>ADS</Protocoll>
+                  <Format>TcBinary</Format>
+                  <TimeContext>Present</TimeContext>
+                  <TimeRange>
+                    <StartTimeStamp>0</StartTimeStamp>
+                    <EndTimeStamp>0</EndTimeStamp>
+                  </TimeRange>
+                </DataAccess>
+                <DbSelect>unknown</DbSelect>
+                <DbColumn>unknown</DbColumn>
+                <DbTimeCol>unknown</DbTimeCol>
+                <DbId>0</DbId>
+                <DbTable>unknown</DbTable>
+                <DbRecords>
+                  <Records />
+                </DbRecords>
+                <IotFilePath>unknown</IotFilePath>
+                <IotFileTimeRangeId>18446744073709551615</IotFileTimeRangeId>
+                <IotFileRecords>
+                  <Records />
+                </IotFileRecords>
+                <IotFileSymbolName>unknown</IotFileSymbolName>
+                <IotFileValueByteOffset>4294967295</IotFileValueByteOffset>
+                <MqttHost>unknown</MqttHost>
+                <MqttLayout>00000000-0000-0000-0000-000000000000</MqttLayout>
+                <MqttTopic>unknown</MqttTopic>
+                <MqttTimeRangeId>18446744073709551615</MqttTimeRangeId>
+                <MqttRecords>
+                  <Records />
+                </MqttRecords>
+                <MqttConnectionSettings>
+                  <Broker>
+                  </Broker>
+                  <BrokerPort>1883</BrokerPort>
+                  <UserID>
+                  </UserID>
+                  <PasswordCrypted>P5/KfLKb/vbV24OCSxP86IKEttW1YtUB</PasswordCrypted>
+                  <WithCertificates>false</WithCertificates>
+                  <CA_Certificate>
+                  </CA_Certificate>
+                  <CA_Pwd>
+                  </CA_Pwd>
+                  <Pfx_Certificate>
+                  </Pfx_Certificate>
+                  <Pfx_Pwd>
+                  </Pfx_Pwd>
+                  <Cert_Certificate>
+                  </Cert_Certificate>
+                  <Cert_Pwd>
+                  </Cert_Pwd>
+                  <Key_Certificate>
+                  </Key_Certificate>
+                  <Key_Pwd>
+                  </Key_Pwd>
+                </MqttConnectionSettings>
+                <MqttSymbolName>unknown</MqttSymbolName>
+                <MqttValueByteOffset>4294967295</MqttValueByteOffset>
+                <MqttCmdTopic>unknown</MqttCmdTopic>
+                <IsHistorical>false</IsHistorical>
+                <OpcUaAddress>
+                  <ServerUrl>
+                  </ServerUrl>
+                  <EndpointName>
+                  </EndpointName>
+                  <SecurityPolicyUri>
+                  </SecurityPolicyUri>
+                  <IdentityType>Anonymous</IdentityType>
+                  <UserName>
+                  </UserName>
+                </OpcUaAddress>
+                <OpcUaSymbol>
+                  <Name>
+                  </Name>
+                  <Path>
+                  </Path>
+                  <BitSize>0</BitSize>
+                  <BaseType>
+                  </BaseType>
+                  <NodeClass>
+                  </NodeClass>
+                  <NodeId>
+                  </NodeId>
+                  <NamespaceName>
+                  </NamespaceName>
+                  <IsArray>false</IsArray>
+                  <IsMatrix>false</IsMatrix>
+                  <Dimensions>0</Dimensions>
+                  <ArrayLength>-1</ArrayLength>
+                </OpcUaSymbol>
+              </Acquisition>
+              <Style>
+                <ColorValue>-5952982</ColorValue>
+                <SolidLine>true</SolidLine>
+                <Marks>false</Marks>
+                <LineWidth>1</LineWidth>
+                <Antialias>true</Antialias>
+                <Offset>0</Offset>
+                <BitMask>18446744073709551615</BitMask>
+                <ShowCursorValue>true</ShowCursorValue>
+                <Visible>true</Visible>
+                <MarkColorValue>-5952982</MarkColorValue>
+                <MarkSize>3</MarkSize>
+                <TimeShift>0</TimeShift>
+                <ScaleFactor>1</ScaleFactor>
+                <Comment></Comment>
+                <AutoMarks>true</AutoMarks>
+                <XOffset>0</XOffset>
+                <XScaleFactor>1</XScaleFactor>
+                <XBitMask>18446744073709551615</XBitMask>
+                <FillMode>0</FillMode>
+                <FillColorValue>849685034</FillColorValue>
+                <EndCap>false</EndCap>
+                <StartCap>false</StartCap>
+                <CapSize>3</CapSize>
+                <CapColorValue>-65536</CapColorValue>
+                <SeriesType>Line</SeriesType>
+                <ShowMin>false</ShowMin>
+                <ShowMax>false</ShowMax>
+                <ResultingUnit>
+                  <Unit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Symbol>
+                    </Symbol>
+                    <ReturnText> (None) </ReturnText>
+                    <BaseUnitString />
+                    <NameExtension />
+                  </Unit>
+                  <Transformation>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <TargetUnitValue>0</TargetUnitValue>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Name>None</Name>
+                    <SourceUnitString />
+                    <TargetUnitString />
+                    <SourceUnitPrefix>none</SourceUnitPrefix>
+                    <Symbol>1</Symbol>
+                  </Transformation>
+                  <UserUnit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Name>None</Name>
+                    <BaseName>UnitOfOne</BaseName>
+                    <NameExtension />
+                    <Symbol>
+                    </Symbol>
+                    <BaseUnitString />
+                    <UserPrefix>none</UserPrefix>
+                  </UserUnit>
+                  <UnitScaleResult>1</UnitScaleResult>
+                  <UnitOffsetResult>0</UnitOffsetResult>
+                </ResultingUnit>
+                <XResultingUnit>
+                  <Unit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Symbol>
+                    </Symbol>
+                    <ReturnText> (None) </ReturnText>
+                    <BaseUnitString />
+                    <NameExtension />
+                  </Unit>
+                  <Transformation>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <TargetUnitValue>0</TargetUnitValue>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Name>None</Name>
+                    <SourceUnitString />
+                    <TargetUnitString />
+                    <SourceUnitPrefix>none</SourceUnitPrefix>
+                    <Symbol>1</Symbol>
+                  </Transformation>
+                  <UserUnit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Name>None</Name>
+                    <BaseName>UnitOfOne</BaseName>
+                    <NameExtension />
+                    <Symbol>
+                    </Symbol>
+                    <BaseUnitString />
+                    <UserPrefix>none</UserPrefix>
+                  </UserUnit>
+                  <UnitScaleResult>1</UnitScaleResult>
+                  <UnitOffsetResult>0</UnitOffsetResult>
+                </XResultingUnit>
+              </Style>
+              <SortPriority>-1</SortPriority>
+            </ScopeChannelSerializable>
+          </Channels>
+          <Markers />
+          <MarkerControl>
+            <WidthValues />
+            <CreatedRows />
+          </MarkerControl>
+          <SortPriority>0</SortPriority>
+        </ScopeYAxisSerializable>
+        <ScopeYAxisSerializable>
+          <Caption>Y Gantry Difference</Caption>
+          <Name>Y Gantry Difference</Name>
+          <Style>
+            <Visible>true</Visible>
+            <Enabled>true</Enabled>
+            <ColorValue>-13676721</ColorValue>
+            <UseGrid>true</UseGrid>
+            <Ticks>10</Ticks>
+            <LineWidth>1</LineWidth>
+            <AutoScale>true</AutoScale>
+            <AxisMin>-1</AxisMin>
+            <AxisMax>1</AxisMax>
+            <ScaleFactor>0</ScaleFactor>
+            <ShowCursorValue>true</ShowCursorValue>
+            <GridColorValue>-13676721</GridColorValue>
+            <GridLineWidth>1</GridLineWidth>
+            <UseSubGrid>false</UseSubGrid>
+            <SubDivisions>5</SubDivisions>
+            <Logarithmic>false</Logarithmic>
+            <Comment></Comment>
+            <ShowName>true</ShowName>
+            <Precision>6</Precision>
+            <ScaleMode>AutoGrowOnly</ScaleMode>
+          </Style>
+          <Channels>
+            <ScopeChannelSerializable>
+              <GUID>58704a72-8c04-4e17-8f7f-8f041b29efde</GUID>
+              <Name>nCurrGantryY</Name>
+              <IdentHandle>7</IdentHandle>
+              <Acquisition>
+                <DataType>INT64</DataType>
+                <IndexGroup>16448</IndexGroup>
+                <IndexOffset>664472</IndexOffset>
+                <Unit />
+                <TargetPort>851</TargetPort>
+                <VariableSize>8</VariableSize>
+                <SymbolName>MAIN.nCurrGantryY</SymbolName>
+                <SymbolComment></SymbolComment>
+                <IsSymbolBased>true</IsSymbolBased>
+                <FileHandle>129</FileHandle>
+                <UseLocalServer>true</UseLocalServer>
+                <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
+                <SampleTime>100000</SampleTime>
+                <Disabled>false</Disabled>
+                <Oversample>0</Oversample>
+                <UseTaskSampletime>true</UseTaskSampletime>
+                <ForceOversampling>false</ForceOversampling>
+                <IsArray>false</IsArray>
+                <ArrayLength>0</ArrayLength>
+                <ContextMask>0</ContextMask>
+                <TimeOffset>0</TimeOffset>
+                <DataAccess>
+                  <Source>TwinCAT</Source>
+                  <Protocoll>ADS</Protocoll>
+                  <Format>TcBinary</Format>
+                  <TimeContext>Present</TimeContext>
+                  <TimeRange>
+                    <StartTimeStamp>0</StartTimeStamp>
+                    <EndTimeStamp>0</EndTimeStamp>
+                  </TimeRange>
+                </DataAccess>
+                <DbSelect>unknown</DbSelect>
+                <DbColumn>unknown</DbColumn>
+                <DbTimeCol>unknown</DbTimeCol>
+                <DbId>0</DbId>
+                <DbTable>unknown</DbTable>
+                <DbRecords>
+                  <Records />
+                </DbRecords>
+                <IotFilePath>unknown</IotFilePath>
+                <IotFileTimeRangeId>18446744073709551615</IotFileTimeRangeId>
+                <IotFileRecords>
+                  <Records />
+                </IotFileRecords>
+                <IotFileSymbolName>unknown</IotFileSymbolName>
+                <IotFileValueByteOffset>4294967295</IotFileValueByteOffset>
+                <MqttHost>unknown</MqttHost>
+                <MqttLayout>00000000-0000-0000-0000-000000000000</MqttLayout>
+                <MqttTopic>unknown</MqttTopic>
+                <MqttTimeRangeId>18446744073709551615</MqttTimeRangeId>
+                <MqttRecords>
+                  <Records />
+                </MqttRecords>
+                <MqttConnectionSettings>
+                  <Broker>
+                  </Broker>
+                  <BrokerPort>1883</BrokerPort>
+                  <UserID>
+                  </UserID>
+                  <PasswordCrypted>0emDiKptGTbAgUg8ZV/v1sVjneG1YtUB</PasswordCrypted>
+                  <WithCertificates>false</WithCertificates>
+                  <CA_Certificate>
+                  </CA_Certificate>
+                  <CA_Pwd>
+                  </CA_Pwd>
+                  <Pfx_Certificate>
+                  </Pfx_Certificate>
+                  <Pfx_Pwd>
+                  </Pfx_Pwd>
+                  <Cert_Certificate>
+                  </Cert_Certificate>
+                  <Cert_Pwd>
+                  </Cert_Pwd>
+                  <Key_Certificate>
+                  </Key_Certificate>
+                  <Key_Pwd>
+                  </Key_Pwd>
+                </MqttConnectionSettings>
+                <MqttSymbolName>unknown</MqttSymbolName>
+                <MqttValueByteOffset>4294967295</MqttValueByteOffset>
+                <MqttCmdTopic>unknown</MqttCmdTopic>
+                <IsHistorical>false</IsHistorical>
+                <OpcUaAddress>
+                  <ServerUrl>
+                  </ServerUrl>
+                  <EndpointName>
+                  </EndpointName>
+                  <SecurityPolicyUri>
+                  </SecurityPolicyUri>
+                  <IdentityType>Anonymous</IdentityType>
+                  <UserName>
+                  </UserName>
+                </OpcUaAddress>
+                <OpcUaSymbol>
+                  <Name>
+                  </Name>
+                  <Path>
+                  </Path>
+                  <BitSize>0</BitSize>
+                  <BaseType>
+                  </BaseType>
+                  <NodeClass>
+                  </NodeClass>
+                  <NodeId>
+                  </NodeId>
+                  <NamespaceName>
+                  </NamespaceName>
+                  <IsArray>false</IsArray>
+                  <IsMatrix>false</IsMatrix>
+                  <Dimensions>0</Dimensions>
+                  <ArrayLength>-1</ArrayLength>
+                </OpcUaSymbol>
+              </Acquisition>
+              <Style>
+                <ColorValue>-9728477</ColorValue>
+                <SolidLine>true</SolidLine>
+                <Marks>false</Marks>
+                <LineWidth>1</LineWidth>
+                <Antialias>true</Antialias>
+                <Offset>0</Offset>
+                <BitMask>18446744073709551615</BitMask>
+                <ShowCursorValue>true</ShowCursorValue>
+                <Visible>true</Visible>
+                <MarkColorValue>-9728477</MarkColorValue>
+                <MarkSize>3</MarkSize>
+                <TimeShift>0</TimeShift>
+                <ScaleFactor>1</ScaleFactor>
+                <Comment></Comment>
+                <AutoMarks>true</AutoMarks>
+                <XOffset>0</XOffset>
+                <XScaleFactor>1</XScaleFactor>
+                <XBitMask>18446744073709551615</XBitMask>
+                <FillMode>0</FillMode>
+                <FillColorValue>845909539</FillColorValue>
+                <EndCap>false</EndCap>
+                <StartCap>false</StartCap>
+                <CapSize>3</CapSize>
+                <CapColorValue>-65536</CapColorValue>
+                <SeriesType>Line</SeriesType>
+                <ShowMin>false</ShowMin>
+                <ShowMax>false</ShowMax>
+                <ResultingUnit>
+                  <Unit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Symbol>
+                    </Symbol>
+                    <ReturnText> (None) </ReturnText>
+                    <BaseUnitString />
+                    <NameExtension />
+                  </Unit>
+                  <Transformation>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <TargetUnitValue>0</TargetUnitValue>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Name>None</Name>
+                    <SourceUnitString />
+                    <TargetUnitString />
+                    <SourceUnitPrefix>none</SourceUnitPrefix>
+                    <Symbol>1</Symbol>
+                  </Transformation>
+                  <UserUnit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Name>None</Name>
+                    <BaseName>UnitOfOne</BaseName>
+                    <NameExtension />
+                    <Symbol>
+                    </Symbol>
+                    <BaseUnitString />
+                    <UserPrefix>none</UserPrefix>
+                  </UserUnit>
+                  <UnitScaleResult>1</UnitScaleResult>
+                  <UnitOffsetResult>0</UnitOffsetResult>
+                </ResultingUnit>
+                <XResultingUnit>
+                  <Unit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Symbol>
+                    </Symbol>
+                    <ReturnText> (None) </ReturnText>
+                    <BaseUnitString />
+                    <NameExtension />
+                  </Unit>
+                  <Transformation>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <TargetUnitValue>0</TargetUnitValue>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Name>None</Name>
+                    <SourceUnitString />
+                    <TargetUnitString />
+                    <SourceUnitPrefix>none</SourceUnitPrefix>
+                    <Symbol>1</Symbol>
+                  </Transformation>
+                  <UserUnit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Name>None</Name>
+                    <BaseName>UnitOfOne</BaseName>
+                    <NameExtension />
+                    <Symbol>
+                    </Symbol>
+                    <BaseUnitString />
+                    <UserPrefix>none</UserPrefix>
+                  </UserUnit>
+                  <UnitScaleResult>1</UnitScaleResult>
+                  <UnitOffsetResult>0</UnitOffsetResult>
+                </XResultingUnit>
+              </Style>
+              <SortPriority>-1</SortPriority>
+            </ScopeChannelSerializable>
+          </Channels>
+          <Markers />
+          <MarkerControl>
+            <WidthValues />
+            <CreatedRows />
+          </MarkerControl>
+          <SortPriority>1</SortPriority>
+        </ScopeYAxisSerializable>
+        <ScopeYAxisSerializable>
+          <Caption>Position absolute - downstream</Caption>
+          <Name>Position absolute - downstream</Name>
+          <Style>
+            <Visible>true</Visible>
+            <Enabled>true</Enabled>
+            <ColorValue>-13676721</ColorValue>
+            <UseGrid>true</UseGrid>
+            <Ticks>10</Ticks>
+            <LineWidth>1</LineWidth>
+            <AutoScale>true</AutoScale>
+            <AxisMin>-1</AxisMin>
+            <AxisMax>1</AxisMax>
+            <ScaleFactor>0</ScaleFactor>
+            <ShowCursorValue>true</ShowCursorValue>
+            <GridColorValue>-13676721</GridColorValue>
+            <GridLineWidth>1</GridLineWidth>
+            <UseSubGrid>false</UseSubGrid>
+            <SubDivisions>5</SubDivisions>
+            <Logarithmic>false</Logarithmic>
+            <Comment></Comment>
+            <ShowName>true</ShowName>
+            <Precision>6</Precision>
+            <ScaleMode>AutoGrowOnly</ScaleMode>
+          </Style>
+          <Channels>
+            <ScopeChannelSerializable>
+              <GUID>15399b12-f2d7-41e4-a949-3e054a448df6</GUID>
+              <Name>ACTPOS - DWN</Name>
+              <IdentHandle>8</IdentHandle>
+              <Acquisition>
+                <DataType>REAL64</DataType>
+                <IndexGroup>16644</IndexGroup>
+                <IndexOffset>65538</IndexOffset>
+                <Unit />
+                <TargetPort>501</TargetPort>
+                <VariableSize>8</VariableSize>
+                <SymbolName>Axes.Axis_Xdwn.ActPos</SymbolName>
+                <SymbolComment></SymbolComment>
+                <IsSymbolBased>true</IsSymbolBased>
+                <FileHandle>130</FileHandle>
                 <UseLocalServer>true</UseLocalServer>
                 <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
                 <SampleTime>20000</SampleTime>
@@ -1045,7 +1918,7 @@
                   <Broker></Broker>
                   <BrokerPort>1883</BrokerPort>
                   <UserID></UserID>
-                  <PasswordCrypted>2RSPNyP0NBeYBArgnxFOJED7W2q1YtUB</PasswordCrypted>
+                  <PasswordCrypted>momzqNchbVnkTMqrwphaYnVAqo1vY9UB</PasswordCrypted>
                   <WithCertificates>false</WithCertificates>
                   <CA_Certificate></CA_Certificate>
                   <CA_Pwd></CA_Pwd>
@@ -1082,17 +1955,218 @@
                 </OpcUaSymbol>
               </Acquisition>
               <Style>
-                <ColorValue>-65281</ColorValue>
-                <SolidLine>false</SolidLine>
+                <ColorValue>-8355840</ColorValue>
+                <SolidLine>true</SolidLine>
                 <Marks>false</Marks>
-                <LineWidth>2</LineWidth>
+                <LineWidth>1</LineWidth>
                 <Antialias>true</Antialias>
                 <Offset>0</Offset>
                 <BitMask>18446744073709551615</BitMask>
                 <ShowCursorValue>true</ShowCursorValue>
                 <Visible>true</Visible>
-                <MarkColorValue>-65281</MarkColorValue>
-                <MarkSize>5</MarkSize>
+                <MarkColorValue>-8355840</MarkColorValue>
+                <MarkSize>3</MarkSize>
+                <TimeShift>0</TimeShift>
+                <ScaleFactor>1</ScaleFactor>
+                <Comment></Comment>
+                <AutoMarks>true</AutoMarks>
+                <XOffset>0</XOffset>
+                <XScaleFactor>1</XScaleFactor>
+                <XBitMask>18446744073709551615</XBitMask>
+                <FillMode>0</FillMode>
+                <FillColorValue>847282176</FillColorValue>
+                <EndCap>false</EndCap>
+                <StartCap>false</StartCap>
+                <CapSize>3</CapSize>
+                <CapColorValue>-65536</CapColorValue>
+                <SeriesType>Line</SeriesType>
+                <ShowMin>false</ShowMin>
+                <ShowMax>false</ShowMax>
+                <ResultingUnit>
+                  <Unit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Symbol></Symbol>
+                    <ReturnText> (None) </ReturnText>
+                    <BaseUnitString />
+                    <NameExtension />
+                  </Unit>
+                  <Transformation>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <TargetUnitValue>0</TargetUnitValue>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Name>None</Name>
+                    <SourceUnitString />
+                    <TargetUnitString />
+                    <SourceUnitPrefix>none</SourceUnitPrefix>
+                    <Symbol>1</Symbol>
+                  </Transformation>
+                  <UserUnit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Name>None</Name>
+                    <BaseName>UnitOfOne</BaseName>
+                    <NameExtension />
+                    <Symbol></Symbol>
+                    <BaseUnitString />
+                    <UserPrefix>none</UserPrefix>
+                  </UserUnit>
+                  <UnitScaleResult>1</UnitScaleResult>
+                  <UnitOffsetResult>0</UnitOffsetResult>
+                </ResultingUnit>
+                <XResultingUnit>
+                  <Unit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Symbol></Symbol>
+                    <ReturnText> (None) </ReturnText>
+                    <BaseUnitString />
+                    <NameExtension />
+                  </Unit>
+                  <Transformation>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <TargetUnitValue>0</TargetUnitValue>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Name>None</Name>
+                    <SourceUnitString />
+                    <TargetUnitString />
+                    <SourceUnitPrefix>none</SourceUnitPrefix>
+                    <Symbol>1</Symbol>
+                  </Transformation>
+                  <UserUnit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Name>None</Name>
+                    <BaseName>UnitOfOne</BaseName>
+                    <NameExtension />
+                    <Symbol></Symbol>
+                    <BaseUnitString />
+                    <UserPrefix>none</UserPrefix>
+                  </UserUnit>
+                  <UnitScaleResult>1</UnitScaleResult>
+                  <UnitOffsetResult>0</UnitOffsetResult>
+                </XResultingUnit>
+              </Style>
+              <SortPriority>-1</SortPriority>
+            </ScopeChannelSerializable>
+            <ScopeChannelSerializable>
+              <GUID>3e84cf57-9fa7-45b1-a9a4-23692f2569b7</GUID>
+              <Name>SETPOS - DWN</Name>
+              <IdentHandle>9</IdentHandle>
+              <Acquisition>
+                <DataType>REAL64</DataType>
+                <IndexGroup>16644</IndexGroup>
+                <IndexOffset>10</IndexOffset>
+                <Unit />
+                <TargetPort>501</TargetPort>
+                <VariableSize>8</VariableSize>
+                <SymbolName>Axes.Axis_Xdwn.SetPos</SymbolName>
+                <SymbolComment></SymbolComment>
+                <IsSymbolBased>true</IsSymbolBased>
+                <FileHandle>131</FileHandle>
+                <UseLocalServer>true</UseLocalServer>
+                <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
+                <SampleTime>20000</SampleTime>
+                <Disabled>false</Disabled>
+                <Oversample>0</Oversample>
+                <UseTaskSampletime>true</UseTaskSampletime>
+                <ForceOversampling>false</ForceOversampling>
+                <IsArray>false</IsArray>
+                <ArrayLength>0</ArrayLength>
+                <ContextMask>0</ContextMask>
+                <TimeOffset>0</TimeOffset>
+                <DataAccess>
+                  <Source>TwinCAT</Source>
+                  <Protocoll>ADS</Protocoll>
+                  <Format>TcBinary</Format>
+                  <TimeContext>Present</TimeContext>
+                  <TimeRange>
+                    <StartTimeStamp>0</StartTimeStamp>
+                    <EndTimeStamp>0</EndTimeStamp>
+                  </TimeRange>
+                </DataAccess>
+                <DbSelect>unknown</DbSelect>
+                <DbColumn>unknown</DbColumn>
+                <DbTimeCol>unknown</DbTimeCol>
+                <DbId>0</DbId>
+                <DbTable>unknown</DbTable>
+                <DbRecords>
+                  <Records />
+                </DbRecords>
+                <IotFilePath>unknown</IotFilePath>
+                <IotFileTimeRangeId>18446744073709551615</IotFileTimeRangeId>
+                <IotFileRecords>
+                  <Records />
+                </IotFileRecords>
+                <IotFileSymbolName>unknown</IotFileSymbolName>
+                <IotFileValueByteOffset>4294967295</IotFileValueByteOffset>
+                <MqttHost>unknown</MqttHost>
+                <MqttLayout>00000000-0000-0000-0000-000000000000</MqttLayout>
+                <MqttTopic>unknown</MqttTopic>
+                <MqttTimeRangeId>18446744073709551615</MqttTimeRangeId>
+                <MqttRecords>
+                  <Records />
+                </MqttRecords>
+                <MqttConnectionSettings>
+                  <Broker></Broker>
+                  <BrokerPort>1883</BrokerPort>
+                  <UserID></UserID>
+                  <PasswordCrypted>Nw90q+B2tpgZvG2a+wCwovmSh9tvY9UB</PasswordCrypted>
+                  <WithCertificates>false</WithCertificates>
+                  <CA_Certificate></CA_Certificate>
+                  <CA_Pwd></CA_Pwd>
+                  <Pfx_Certificate></Pfx_Certificate>
+                  <Pfx_Pwd></Pfx_Pwd>
+                  <Cert_Certificate></Cert_Certificate>
+                  <Cert_Pwd></Cert_Pwd>
+                  <Key_Certificate></Key_Certificate>
+                  <Key_Pwd></Key_Pwd>
+                </MqttConnectionSettings>
+                <MqttSymbolName>unknown</MqttSymbolName>
+                <MqttValueByteOffset>4294967295</MqttValueByteOffset>
+                <MqttCmdTopic>unknown</MqttCmdTopic>
+                <IsHistorical>false</IsHistorical>
+                <OpcUaAddress>
+                  <ServerUrl></ServerUrl>
+                  <EndpointName></EndpointName>
+                  <SecurityPolicyUri></SecurityPolicyUri>
+                  <IdentityType>Anonymous</IdentityType>
+                  <UserName></UserName>
+                </OpcUaAddress>
+                <OpcUaSymbol>
+                  <Name></Name>
+                  <Path></Path>
+                  <BitSize>0</BitSize>
+                  <BaseType></BaseType>
+                  <NodeClass></NodeClass>
+                  <NodeId></NodeId>
+                  <NamespaceName></NamespaceName>
+                  <IsArray>false</IsArray>
+                  <IsMatrix>false</IsMatrix>
+                  <Dimensions>0</Dimensions>
+                  <ArrayLength>-1</ArrayLength>
+                </OpcUaSymbol>
+              </Acquisition>
+              <Style>
+                <ColorValue>-16711681</ColorValue>
+                <SolidLine>true</SolidLine>
+                <Marks>false</Marks>
+                <LineWidth>1</LineWidth>
+                <Antialias>true</Antialias>
+                <Offset>0</Offset>
+                <BitMask>18446744073709551615</BitMask>
+                <ShowCursorValue>true</ShowCursorValue>
+                <Visible>true</Visible>
+                <MarkColorValue>-16711681</MarkColorValue>
+                <MarkSize>3</MarkSize>
                 <TimeShift>0</TimeShift>
                 <ScaleFactor>1</ScaleFactor>
                 <Comment></Comment>
@@ -1190,11 +2264,11 @@
             <WidthValues />
             <CreatedRows />
           </MarkerControl>
-          <SortPriority>4</SortPriority>
+          <SortPriority>-1</SortPriority>
         </ScopeYAxisSerializable>
         <ScopeYAxisSerializable>
-          <Caption>X Gantry Difference</Caption>
-          <Name>X Gantry Difference</Name>
+          <Caption>Velocity - downstream</Caption>
+          <Name>Velocity - downstream</Name>
           <Style>
             <Visible>true</Visible>
             <Enabled>true</Enabled>
@@ -1213,29 +2287,29 @@
             <SubDivisions>5</SubDivisions>
             <Logarithmic>false</Logarithmic>
             <Comment></Comment>
-            <ShowName>true</ShowName>
+            <ShowName>false</ShowName>
             <Precision>6</Precision>
             <ScaleMode>AutoGrowOnly</ScaleMode>
           </Style>
           <Channels>
             <ScopeChannelSerializable>
-              <GUID>98ab0c73-e665-4db1-a2bd-bed1f51a28fd</GUID>
-              <Name>nCurrGantryX</Name>
-              <IdentHandle>6</IdentHandle>
+              <GUID>2df1d63f-787f-4066-a6f8-7cb3311f89d5</GUID>
+              <Name>ACTVELO - DWN</Name>
+              <IdentHandle>10</IdentHandle>
               <Acquisition>
-                <DataType>INT64</DataType>
-                <IndexGroup>16448</IndexGroup>
-                <IndexOffset>664464</IndexOffset>
+                <DataType>REAL64</DataType>
+                <IndexGroup>16644</IndexGroup>
+                <IndexOffset>65541</IndexOffset>
                 <Unit />
-                <TargetPort>851</TargetPort>
+                <TargetPort>501</TargetPort>
                 <VariableSize>8</VariableSize>
-                <SymbolName>MAIN.nCurrGantryX</SymbolName>
-                <SymbolComment> Gantry variables</SymbolComment>
+                <SymbolName>Axes.Axis_Xdwn.ActVelo</SymbolName>
+                <SymbolComment></SymbolComment>
                 <IsSymbolBased>true</IsSymbolBased>
-                <FileHandle>0</FileHandle>
+                <FileHandle>132</FileHandle>
                 <UseLocalServer>true</UseLocalServer>
                 <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
-                <SampleTime>10000</SampleTime>
+                <SampleTime>20000</SampleTime>
                 <Disabled>false</Disabled>
                 <Oversample>0</Oversample>
                 <UseTaskSampletime>true</UseTaskSampletime>
@@ -1280,7 +2354,7 @@
                   <Broker></Broker>
                   <BrokerPort>1883</BrokerPort>
                   <UserID></UserID>
-                  <PasswordCrypted>P5/KfLKb/vbV24OCSxP86IKEttW1YtUB</PasswordCrypted>
+                  <PasswordCrypted>L1dowDw5MhNfyRleunAmdmBLXfpvY9UB</PasswordCrypted>
                   <WithCertificates>false</WithCertificates>
                   <CA_Certificate></CA_Certificate>
                   <CA_Pwd></CA_Pwd>
@@ -1419,58 +2493,24 @@
               </Style>
               <SortPriority>-1</SortPriority>
             </ScopeChannelSerializable>
-          </Channels>
-          <Markers />
-          <MarkerControl>
-            <WidthValues />
-            <CreatedRows />
-          </MarkerControl>
-          <SortPriority>-1</SortPriority>
-        </ScopeYAxisSerializable>
-        <ScopeYAxisSerializable>
-          <Caption>Y Gantry Difference</Caption>
-          <Name>Y Gantry Difference</Name>
-          <Style>
-            <Visible>true</Visible>
-            <Enabled>true</Enabled>
-            <ColorValue>-13676721</ColorValue>
-            <UseGrid>true</UseGrid>
-            <Ticks>10</Ticks>
-            <LineWidth>1</LineWidth>
-            <AutoScale>true</AutoScale>
-            <AxisMin>-1</AxisMin>
-            <AxisMax>1</AxisMax>
-            <ScaleFactor>0</ScaleFactor>
-            <ShowCursorValue>true</ShowCursorValue>
-            <GridColorValue>-13676721</GridColorValue>
-            <GridLineWidth>1</GridLineWidth>
-            <UseSubGrid>false</UseSubGrid>
-            <SubDivisions>5</SubDivisions>
-            <Logarithmic>false</Logarithmic>
-            <Comment></Comment>
-            <ShowName>true</ShowName>
-            <Precision>6</Precision>
-            <ScaleMode>AutoGrowOnly</ScaleMode>
-          </Style>
-          <Channels>
             <ScopeChannelSerializable>
-              <GUID>58704a72-8c04-4e17-8f7f-8f041b29efde</GUID>
-              <Name>nCurrGantryY</Name>
-              <IdentHandle>7</IdentHandle>
+              <GUID>09ed5b03-065b-4255-906d-f5c0589961b6</GUID>
+              <Name>SETVELO - DWN</Name>
+              <IdentHandle>11</IdentHandle>
               <Acquisition>
-                <DataType>INT64</DataType>
-                <IndexGroup>16448</IndexGroup>
-                <IndexOffset>664472</IndexOffset>
+                <DataType>REAL64</DataType>
+                <IndexGroup>16644</IndexGroup>
+                <IndexOffset>14</IndexOffset>
                 <Unit />
-                <TargetPort>851</TargetPort>
+                <TargetPort>501</TargetPort>
                 <VariableSize>8</VariableSize>
-                <SymbolName>MAIN.nCurrGantryY</SymbolName>
+                <SymbolName>Axes.Axis_Xdwn.SetVelo</SymbolName>
                 <SymbolComment></SymbolComment>
                 <IsSymbolBased>true</IsSymbolBased>
-                <FileHandle>0</FileHandle>
+                <FileHandle>133</FileHandle>
                 <UseLocalServer>true</UseLocalServer>
                 <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
-                <SampleTime>10000</SampleTime>
+                <SampleTime>20000</SampleTime>
                 <Disabled>false</Disabled>
                 <Oversample>0</Oversample>
                 <UseTaskSampletime>true</UseTaskSampletime>
@@ -1515,7 +2555,7 @@
                   <Broker></Broker>
                   <BrokerPort>1883</BrokerPort>
                   <UserID></UserID>
-                  <PasswordCrypted>0emDiKptGTbAgUg8ZV/v1sVjneG1YtUB</PasswordCrypted>
+                  <PasswordCrypted>zG+inzxMKzueUGIfwYOr0L6QQv1vY9UB</PasswordCrypted>
                   <WithCertificates>false</WithCertificates>
                   <CA_Certificate></CA_Certificate>
                   <CA_Pwd></CA_Pwd>
@@ -1572,6 +2612,241 @@
                 <XBitMask>18446744073709551615</XBitMask>
                 <FillMode>0</FillMode>
                 <FillColorValue>845909539</FillColorValue>
+                <EndCap>false</EndCap>
+                <StartCap>false</StartCap>
+                <CapSize>3</CapSize>
+                <CapColorValue>-65536</CapColorValue>
+                <SeriesType>Line</SeriesType>
+                <ShowMin>false</ShowMin>
+                <ShowMax>false</ShowMax>
+                <ResultingUnit>
+                  <Unit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Symbol></Symbol>
+                    <ReturnText> (None) </ReturnText>
+                    <BaseUnitString />
+                    <NameExtension />
+                  </Unit>
+                  <Transformation>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <TargetUnitValue>0</TargetUnitValue>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Name>None</Name>
+                    <SourceUnitString />
+                    <TargetUnitString />
+                    <SourceUnitPrefix>none</SourceUnitPrefix>
+                    <Symbol>1</Symbol>
+                  </Transformation>
+                  <UserUnit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Name>None</Name>
+                    <BaseName>UnitOfOne</BaseName>
+                    <NameExtension />
+                    <Symbol></Symbol>
+                    <BaseUnitString />
+                    <UserPrefix>none</UserPrefix>
+                  </UserUnit>
+                  <UnitScaleResult>1</UnitScaleResult>
+                  <UnitOffsetResult>0</UnitOffsetResult>
+                </ResultingUnit>
+                <XResultingUnit>
+                  <Unit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Symbol></Symbol>
+                    <ReturnText> (None) </ReturnText>
+                    <BaseUnitString />
+                    <NameExtension />
+                  </Unit>
+                  <Transformation>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <TargetUnitValue>0</TargetUnitValue>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Name>None</Name>
+                    <SourceUnitString />
+                    <TargetUnitString />
+                    <SourceUnitPrefix>none</SourceUnitPrefix>
+                    <Symbol>1</Symbol>
+                  </Transformation>
+                  <UserUnit>
+                    <BaseUnitValue>0</BaseUnitValue>
+                    <Prefix>none</Prefix>
+                    <ScaleFactor>1</ScaleFactor>
+                    <Offset>0</Offset>
+                    <Name>None</Name>
+                    <BaseName>UnitOfOne</BaseName>
+                    <NameExtension />
+                    <Symbol></Symbol>
+                    <BaseUnitString />
+                    <UserPrefix>none</UserPrefix>
+                  </UserUnit>
+                  <UnitScaleResult>1</UnitScaleResult>
+                  <UnitOffsetResult>0</UnitOffsetResult>
+                </XResultingUnit>
+              </Style>
+              <SortPriority>-1</SortPriority>
+            </ScopeChannelSerializable>
+          </Channels>
+          <Markers />
+          <MarkerControl>
+            <WidthValues />
+            <CreatedRows />
+          </MarkerControl>
+          <SortPriority>-1</SortPriority>
+        </ScopeYAxisSerializable>
+        <ScopeYAxisSerializable>
+          <Caption>Position Lag - downstream</Caption>
+          <Name>Position Lag - downstream</Name>
+          <Style>
+            <Visible>true</Visible>
+            <Enabled>true</Enabled>
+            <ColorValue>-13676721</ColorValue>
+            <UseGrid>true</UseGrid>
+            <Ticks>10</Ticks>
+            <LineWidth>1</LineWidth>
+            <AutoScale>true</AutoScale>
+            <AxisMin>-1</AxisMin>
+            <AxisMax>1</AxisMax>
+            <ScaleFactor>0</ScaleFactor>
+            <ShowCursorValue>true</ShowCursorValue>
+            <GridColorValue>-13676721</GridColorValue>
+            <GridLineWidth>1</GridLineWidth>
+            <UseSubGrid>false</UseSubGrid>
+            <SubDivisions>5</SubDivisions>
+            <Logarithmic>false</Logarithmic>
+            <Comment></Comment>
+            <ShowName>false</ShowName>
+            <Precision>6</Precision>
+            <ScaleMode>AutoGrowOnly</ScaleMode>
+          </Style>
+          <Channels>
+            <ScopeChannelSerializable>
+              <GUID>0dc5c8d8-9404-4aba-8de3-50a6677b61bc</GUID>
+              <Name>POSDIFF - DWN</Name>
+              <IdentHandle>12</IdentHandle>
+              <Acquisition>
+                <DataType>REAL64</DataType>
+                <IndexGroup>16644</IndexGroup>
+                <IndexOffset>131087</IndexOffset>
+                <Unit />
+                <TargetPort>501</TargetPort>
+                <VariableSize>8</VariableSize>
+                <SymbolName>Axes.Axis_Xdwn.PosDiff</SymbolName>
+                <SymbolComment></SymbolComment>
+                <IsSymbolBased>true</IsSymbolBased>
+                <FileHandle>134</FileHandle>
+                <UseLocalServer>true</UseLocalServer>
+                <AmsNetIdString>5.54.18.124.1.1</AmsNetIdString>
+                <SampleTime>20000</SampleTime>
+                <Disabled>false</Disabled>
+                <Oversample>0</Oversample>
+                <UseTaskSampletime>true</UseTaskSampletime>
+                <ForceOversampling>false</ForceOversampling>
+                <IsArray>false</IsArray>
+                <ArrayLength>0</ArrayLength>
+                <ContextMask>0</ContextMask>
+                <TimeOffset>0</TimeOffset>
+                <DataAccess>
+                  <Source>TwinCAT</Source>
+                  <Protocoll>ADS</Protocoll>
+                  <Format>TcBinary</Format>
+                  <TimeContext>Present</TimeContext>
+                  <TimeRange>
+                    <StartTimeStamp>0</StartTimeStamp>
+                    <EndTimeStamp>0</EndTimeStamp>
+                  </TimeRange>
+                </DataAccess>
+                <DbSelect>unknown</DbSelect>
+                <DbColumn>unknown</DbColumn>
+                <DbTimeCol>unknown</DbTimeCol>
+                <DbId>0</DbId>
+                <DbTable>unknown</DbTable>
+                <DbRecords>
+                  <Records />
+                </DbRecords>
+                <IotFilePath>unknown</IotFilePath>
+                <IotFileTimeRangeId>18446744073709551615</IotFileTimeRangeId>
+                <IotFileRecords>
+                  <Records />
+                </IotFileRecords>
+                <IotFileSymbolName>unknown</IotFileSymbolName>
+                <IotFileValueByteOffset>4294967295</IotFileValueByteOffset>
+                <MqttHost>unknown</MqttHost>
+                <MqttLayout>00000000-0000-0000-0000-000000000000</MqttLayout>
+                <MqttTopic>unknown</MqttTopic>
+                <MqttTimeRangeId>18446744073709551615</MqttTimeRangeId>
+                <MqttRecords>
+                  <Records />
+                </MqttRecords>
+                <MqttConnectionSettings>
+                  <Broker></Broker>
+                  <BrokerPort>1883</BrokerPort>
+                  <UserID></UserID>
+                  <PasswordCrypted>3j2qmGgNRvONIGOsjDFpRi+PnV59Y9UB</PasswordCrypted>
+                  <WithCertificates>false</WithCertificates>
+                  <CA_Certificate></CA_Certificate>
+                  <CA_Pwd></CA_Pwd>
+                  <Pfx_Certificate></Pfx_Certificate>
+                  <Pfx_Pwd></Pfx_Pwd>
+                  <Cert_Certificate></Cert_Certificate>
+                  <Cert_Pwd></Cert_Pwd>
+                  <Key_Certificate></Key_Certificate>
+                  <Key_Pwd></Key_Pwd>
+                </MqttConnectionSettings>
+                <MqttSymbolName>unknown</MqttSymbolName>
+                <MqttValueByteOffset>4294967295</MqttValueByteOffset>
+                <MqttCmdTopic>unknown</MqttCmdTopic>
+                <IsHistorical>false</IsHistorical>
+                <OpcUaAddress>
+                  <ServerUrl></ServerUrl>
+                  <EndpointName></EndpointName>
+                  <SecurityPolicyUri></SecurityPolicyUri>
+                  <IdentityType>Anonymous</IdentityType>
+                  <UserName></UserName>
+                </OpcUaAddress>
+                <OpcUaSymbol>
+                  <Name></Name>
+                  <Path></Path>
+                  <BitSize>0</BitSize>
+                  <BaseType></BaseType>
+                  <NodeClass></NodeClass>
+                  <NodeId></NodeId>
+                  <NamespaceName></NamespaceName>
+                  <IsArray>false</IsArray>
+                  <IsMatrix>false</IsMatrix>
+                  <Dimensions>0</Dimensions>
+                  <ArrayLength>-1</ArrayLength>
+                </OpcUaSymbol>
+              </Acquisition>
+              <Style>
+                <ColorValue>-16181</ColorValue>
+                <SolidLine>true</SolidLine>
+                <Marks>false</Marks>
+                <LineWidth>1</LineWidth>
+                <Antialias>true</Antialias>
+                <Offset>0</Offset>
+                <BitMask>18446744073709551615</BitMask>
+                <ShowCursorValue>true</ShowCursorValue>
+                <Visible>true</Visible>
+                <MarkColorValue>-16181</MarkColorValue>
+                <MarkSize>3</MarkSize>
+                <TimeShift>0</TimeShift>
+                <ScaleFactor>1</ScaleFactor>
+                <Comment></Comment>
+                <AutoMarks>true</AutoMarks>
+                <XOffset>0</XOffset>
+                <XScaleFactor>1</XScaleFactor>
+                <XBitMask>18446744073709551615</XBitMask>
+                <FillMode>0</FillMode>
+                <FillColorValue>855621835</FillColorValue>
                 <EndCap>false</EndCap>
                 <StartCap>false</StartCap>
                 <CapSize>3</CapSize>

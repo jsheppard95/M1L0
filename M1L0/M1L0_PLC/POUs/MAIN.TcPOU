@@ -43,7 +43,8 @@ VAR
 	nGantryTolY : LINT := 25000;
 END_VAR]]></Declaration>
     <Implementation>
-      <ST><![CDATA[// Buttons to enable motors: write 0 to enable, 2 to disable
+      <ST><![CDATA[// M1L0
+// Buttons to enable motors: write 0 to enable, 2 to disable
 M1.nEnableMode; // Yup
 M2.nEnableMode; // Ydwn
 M3.nEnableMode; // Xup
@@ -68,7 +69,6 @@ M4.bHardwareEnable := stoEnable;
 M5.bHardwareEnable := stoEnable;
 M6.bHardwareEnable := stoEnable;
 
-
 // Start Autocoupling
 fbAutoCoupleX(nGantryTol:=nGantryTolX, Master:=M3, MasterEnc:=x_up_enc, Slave:=M4,
 	          SlaveEnc:=x_dwn_enc, bExecuteCouple:=bExecuteCoupleX,
@@ -88,7 +88,9 @@ fbMotionStage_pitch (stMotionStage:=M5);
 fbMotionStage_bender (stMotionStage:=M6);]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
-      <LineId Id="44" Count="41" />
+      <LineId Id="126" Count="0" />
+      <LineId Id="44" Count="22" />
+      <LineId Id="68" Count="17" />
       <LineId Id="2" Count="0" />
     </LineIds>
   </POU>
